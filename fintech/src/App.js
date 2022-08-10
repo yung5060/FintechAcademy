@@ -1,15 +1,18 @@
-import './App.css';
-import InputExample from './components/InputExample';
-import ListComponent from './components/ListComponent';
-import StyledComponent from './components/StyledComponent';
-import Welcome from './components/Welcome';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NewsPage from "./pages/NewsPage";
+
 
 
 function App() {
-  return <div className="App">
-    <h1>안녕하세요</h1>
-    <StyledComponent></StyledComponent>
-  </div>
+  return (
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/news" element={<NewsPage />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+
 }
 
 export default App;

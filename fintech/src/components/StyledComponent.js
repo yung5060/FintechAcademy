@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styled from "styled-components";
 
 const Title = styled.h1`
@@ -9,7 +9,15 @@ const Title = styled.h1`
 
 const Wrapper = styled.section`
   padding: 4em;
-  background: papayawhip;
+  background: #5aa46f;
+  background: -moz-linear-gradient(left, #5aa46f 0%, #2388cb 39%, #753072 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #5aa46f 0%,
+    #2388cb 39%,
+    #753072 100%
+  );
+  background: linear-gradient(to right, #5aa46f 0%, #2388cb 39%, #753072 100%);
 `;
 
 const StyledComponent = () => {
