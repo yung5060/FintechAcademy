@@ -14,7 +14,6 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://jsonplaceholder.typicode.com/posts",
   "scripts": {
     "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
