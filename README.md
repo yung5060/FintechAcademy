@@ -1,4 +1,4 @@
-# FintechAcademy
+# Just Me following 8/8 ~ 8/12 online Fintech Academy (payment/account management) course!!!
 
 Simple React Projet using Open Banking Test API
 1. User Authentication
